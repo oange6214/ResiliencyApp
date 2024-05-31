@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaOne.DataService", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaOne.Entities", "src\FormulaOne.Entities\FormulaOne.Entities.csproj", "{A8AAB0EA-606B-4AEC-93C6-D1816CF9CC9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.AirlineService", "src\FormulaOne.AirlineService\FormulaOne.AirlineService.csproj", "{66594DB9-85F7-4E9E-8002-D8D2EBB29FB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaOne.AirlineService", "src\FormulaOne.AirlineService\FormulaOne.AirlineService.csproj", "{66594DB9-85F7-4E9E-8002-D8D2EBB29FB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +39,15 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1458FA68-4C50-4D4C-8EE0-4B32302A1F7F}
+	EndGlobalSection
+	GlobalSection(AutomaticVersions) = postSolution
+		UpdateAssemblyVersion = True
+		UpdateAssemblyFileVersion = True
+		UpdateAssemblyInfoVersion = False
+		AssemblyVersionSettings = None.None.IncrementOnDemandWithResetOnIncrease.IncrementWithResetOnIncrease
+		AssemblyFileVersionSettings = None.None.IncrementOnDemandWithResetOnIncrease.IncrementWithResetOnIncrease
+		UpdatePackageVersion = False
+		AssemblyInfoVersionType = SettingsVersion
+		InheritWinAppVersionFrom = None
 	EndGlobalSection
 EndGlobal
