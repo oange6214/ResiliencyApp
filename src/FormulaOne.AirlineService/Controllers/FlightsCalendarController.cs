@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FormulaOne.AirlineService.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class FlightsCalendarController : ControllerBase
 {
     private readonly ILogger<FlightsCalendarController> _logger;
