@@ -17,7 +17,7 @@ public class CalendarService : ICalendarService
 
         if (_recoveryTime < DateTime.UtcNow && Random.Next(1, 4) == 1)
         {
-            _recoveryTime = DateTime.UtcNow.AddSeconds(25);
+            _recoveryTime = DateTime.UtcNow.AddSeconds(50);
         }
 
         var flights = new List<FlightDto>
